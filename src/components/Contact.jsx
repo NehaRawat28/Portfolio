@@ -27,7 +27,7 @@ export default function Contact() {
 
         {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/neharawat28/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-6 py-3 border border-green-500 hover:bg-green-600 rounded-lg transition"
@@ -37,7 +37,7 @@ export default function Contact() {
 
         {/* GitHub */}
         <a
-          href="https://github.com/"
+          href="https://github.com/NehaRawat28"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-6 py-3 border border-green-500 hover:bg-green-600 rounded-lg transition"
@@ -47,7 +47,7 @@ export default function Contact() {
 
         {/* Twitter */}
         <a
-          href="https://twitter.com/"
+          href="https://x.com/NehaRawat__"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-6 py-3 border border-green-500 hover:bg-green-600 rounded-lg transition"
@@ -60,7 +60,7 @@ export default function Contact() {
       <p className="mt-10 text-gray-500 text-sm">
         © {new Date().getFullYear()} Neha | Let's Connect |{" "}
         <a
-          href="mailto:nr.neha0000@gmail.com"
+          href="mailto:nr.neha9990@gmail.com"
           className="text-green-400 hover:underline"
         >
           nr.neha0000@gmail.com

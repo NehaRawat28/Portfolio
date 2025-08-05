@@ -9,7 +9,7 @@ export default function Hero() {
 >
 
       <h1 className="text-4xl md:text-6xl font-bold">
-        Hi, I’m <span className="text-green-400">Neha</span> 👋
+        Hi, I’m <span className="text-green-400">Neha Rawat</span> 
       </h1>
 
       {/* ✅ Typing animation */}
@@ -17,8 +17,8 @@ export default function Hero() {
         <Typewriter
           words={[
             "Full Stack Developer",
-            "React | Node.js | MongoDB",
-            "I build beautiful web apps 💻",
+            "React | Node.js | Express.js | React Native",
+            "I build web and mobile apps ",
           ]}
           loop={true}         // keep looping
           cursor
