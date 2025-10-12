@@ -63,7 +63,7 @@ export default function Contact() {
           href="mailto:nr.neha9990@gmail.com"
           className="text-green-400 hover:underline"
         >
-          nr.neha0000@gmail.com
+          nr.neha9990@gmail.com
         </a>
       </p>
     </section>

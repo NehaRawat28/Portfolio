@@ -1,6 +1,12 @@
 export default function Projects() {
   const projects = [
     {
+      title: "Colivio",
+      description: `Developed a platform to help women find compatible roommates in co-living spaces through AI-based matchmaking. 
+Focused on building a secure, user-friendly, and responsive solution to enhance safety and convenience in shared living.`,
+      codeLink: "https://github.com/NehaRawat28/colivio",
+    },
+    {
       title: "Real-time Chat App",
       description: `Developed a chat web app using React and Redux with real-time messaging powered by WebSockets and a 
 Node.js backend.`,
@@ -21,10 +27,7 @@ MongoDB. Integrated secure PDF preview, download, and admin-only content control
   ];
 
   return (
-    <section
-      id="projects"
-      className="py-16 bg-gray-800 text-white text-center"
-    >
+    <section id="projects" className="py-16 bg-gray-800 text-white text-center">
       <h2 className="text-3xl md:text-4xl font-bold mb-8">
         My <span className="text-green-400">Projects</span>
       </h2>
@@ -39,16 +42,7 @@ MongoDB. Integrated secure PDF preview, download, and admin-only content control
             <h3 className="text-xl font-bold mb-2">{project.title}</h3>
             <p className="text-gray-400 mb-4">{project.description}</p>
 
-            <div className="flex justify-center gap-4">
-              {/* Disabled Live Demo for now */}
-              <button
-                className="px-4 py-2 bg-gray-700 rounded-lg cursor-not-allowed opacity-50"
-                disabled
-              >
-                Live Demo (Coming Soon)
-              </button>
-
-              {/* GitHub Code Link */}
+            <div className="flex justify-center">
               <a
                 href={project.codeLink}
                 target="_blank"
