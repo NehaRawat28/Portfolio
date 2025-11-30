@@ -20,9 +20,9 @@ MongoDB. Integrated secure PDF preview, download, and admin-only content control
       codeLink: "https://github.com/NehaRawat28/myunipapers",
     },
     {
-      title: "AI Grading System",
-      description: "AI-powered grading & feedback system using GPT API.",
-      codeLink: "https://github.com/YourUsername/ai-grading-system",
+      title: " NoteWise",
+      description: "Built a Generative AI learning assistant using React Native and Node.js, featuring modular backend architecture, text processing pipelines, AI inference (Groq LLaMA 3.1), and persistent session management.",
+      codeLink: "https://github.com/NehaRawat28/NoteWise",
     },
   ];
 

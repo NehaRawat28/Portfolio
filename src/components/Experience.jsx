@@ -3,7 +3,7 @@ export default function Experience() {
     {
       role: "Full Stack Developer Intern",
       company: "Indux Solar",
-      duration: "Apr 2025 – June 2025",
+      duration: "Apr 2025 – Sep 2025",
       details: [
         `Contributed to the development of web and mobile applications using React.js, 
 React Native, Node.js, Express.js, and MongoDB`,

@@ -7,7 +7,7 @@ export default function About() {
       className="py-16 bg-gray-800 text-white"
       data-aos="fade-right"
     >
-      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center md:justify-between gap-10">
+      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center md:justify-between gap-6">
         {/* Profile Image */}
         <div className="flex-shrink-0">
           <img
@@ -23,10 +23,13 @@ export default function About() {
             About <span className="text-green-400">Me</span>
           </h2>
           <p className="text-lg text-gray-300 leading-relaxed">
-            I’m Neha, a passionate Full Stack Developer who loves creating
-            modern, scalable web and mobile applications. I specialize in
-            React.js, Node.js, and MongoDB, focusing on building seamless user
-            experiences and clean, maintainable code.
+            Hi, I’m Neha. A Full Stack Developer who builds modern, scalable web
+            and mobile apps. I’m not a perfectionist, but I am the type who will
+            fix a bug at 2 AM because “it was bothering me.” I love clean code,
+            smoother user experiences, and learning new things without
+            pretending I know everything (because honestly… who does?). If you
+            need someone curious, practical, and mildly obsessed with shipping
+            neat products , yup! that’s me.
           </p>
         </div>
       </div>

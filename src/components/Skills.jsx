@@ -1,5 +1,5 @@
 import { FaReact, FaNodeJs, FaGitAlt, FaGithub, FaCode } from "react-icons/fa";
-import { SiRedux, SiExpress, SiMongodb, SiNextdotjs, SiVisualstudiocode } from "react-icons/si";
+import { SiRedux, SiExpress } from "react-icons/si";
 import { TbApi } from "react-icons/tb";
 
 export default function Skills() {
@@ -17,33 +17,31 @@ export default function Skills() {
       skills: [
         { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
         { name: "Express.js", icon: <SiExpress className="text-gray-300" /> },
-        { name: "API Integration", icon: <TbApi className="text-yellow-400" /> },
+        {
+          name: "API Integration",
+          icon: <TbApi className="text-yellow-400" />,
+        },
       ],
     },
     {
       category: "Programming",
       skills: [
         { name: "C++", icon: <FaCode className="text-blue-500" /> },
-        { name: "Data Structures & Algorithms", icon: <FaCode className="text-orange-400" /> },
+        {
+          name: "Data Structures & Algorithms",
+          icon: <FaCode className="text-orange-400" />,
+        },
       ],
     },
     {
-  category: "Tools",
-  skills: [
-    { name: "Git", icon: <FaGitAlt className="text-orange-500" /> },
-    { name: "GitHub", icon: <FaGithub className="text-gray-300" /> },
-    { name: "VS Code", icon: <FaCode className="text-blue-500" /> }, // ✅ Fixed
-  ],
-},
-
-    {
-      category: "Learning",
+      category: "Tools",
       skills: [
-        { name: "Next.js", icon: <SiNextdotjs className="text-white" /> },
+        { name: "Git", icon: <FaGitAlt className="text-orange-500" /> },
+        { name: "GitHub", icon: <FaGithub className="text-gray-300" /> },
+        { name: "VS Code", icon: <FaCode className="text-blue-500" /> }, // ✅ Fixed
       ],
     },
   ];
-
 
   return (
     <section
